@@ -142,6 +142,7 @@ footer {
         width: 280px;
         margin: 10px auto;
         align-self: center;
+        padding-bottom: 50px;
     }
 
     form{
@@ -158,8 +159,13 @@ footer {
         box-shadow: 3px 3px 3px rgba(12, 12, 12, 0.507);
         border-radius: 20px;
         margin: 10px auto;
-        align-self: center;
-       
+        align-self: center;  
+    }
+    
+    #res{
+        font-weight: bold;
+    font-size: 0.6em;
+    font-family: italic;
     }
 
     #tabimc h3{
