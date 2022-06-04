@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/styleIMC.css">
+  <title>IMC - Teste rápido</title>
+</head>
+
+<body>
+
+  <header>
+
+  </header>
+
+  <section>
+
+        <div id="tabcalculo">
+          <h1>Calcule seu IMC</h1>
+
+          <form action="">
+
+             <label for="valor">
+                Informe sua altura:
+             </label> <input type="number" name="altura" id="altura" placeholder="Ex: 1.78" required>
+            
+             <br>
+             <br>
+             
+            <label for="valor">
+                Informe seu peso:
+            </label> <input type="number" name="peso" id="peso" placeholder="Ex: 78" required >
+            
+
+            <div id="button">
+              <input type="button" value="Verificar" onclick="calcular()" id="verificar">
+            </div>
+
+          </form>
+
+        <div id="res"></div>
+      </div>
+
+      <div id="tabimc">
+        <h3> Tabela de Referência</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>IMC</th>
+              <th>CLASSIFICAÇÃO</th>
+              <th>OBESIDADE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>MENOR QUE 18.5</td>
+              <td>MAGREZA</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>ENTRE 18.5 E 24.9</td>
+              <td>NORMAL</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>ENTRE 25.0 E 29.9</td>
+              <td>SOBREPESO</td>
+              <td>I</td>
+            </tr>
+            <tr>
+              <td>ENTRE 30.0 E 39.9</td>
+              <td>OBESIDADE</td>
+              <td>II</td>
+            </tr>
+            <tr>
+              <td>MAIOR QUE 40.0</td>
+              <td>OBESIDADE GRAVE</td>
+              <td>III</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+
+  </section>
+
+<script src="./js/imc.js"></script>
+
+</body>
+
+</html>
