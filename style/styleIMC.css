@@ -154,6 +154,7 @@ footer {
         width: 180px;
         height: 200px;
         margin: 0 auto;
+        padding-bottom: 15px;
     }
 
     #tabimc {
@@ -177,7 +178,7 @@ footer {
         font-size: 0.8em;
         font-family: italic;
         margin: 10px;
-        padding-top: 10px;
+        padding-top: 15px;
     }
 
     #tabimc h3 {
