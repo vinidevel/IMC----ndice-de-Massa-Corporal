@@ -6,9 +6,7 @@
 body {
     background: url("../imagens/peso-ideal-1.jpg");
     background-attachment: fixed;
-    background-size: 100%;
-    width: 100%;
-
+    height: 100vh;
 }
 
 section {
